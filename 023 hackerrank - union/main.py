@@ -1,0 +1,5 @@
+a = input()
+set_a = set(list(map(int, input().split(" "))))
+b = input()
+set_b = set(list(map(int, input().split(" "))))
+print(len(set_a.union(set_b)))
